@@ -1,0 +1,42 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "types": {
+    "apps10": {
+      "symbol": "🏆APPS10",
+      "description": "Trained Presenter on APPS10.",
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
+    },
+    "apps50": {
+      "symbol": "🏆APPS50",
+      "description": "Trained Presenter on APPS50.",
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
+    },
+    "apps20": {
+      "symbol": "🏆",
+      "description": "Trained Presenter on APPS20.",
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
+    }
+  },
+  "contributors": [
+    {
+      "login": "FBoucher",
+      "name": "Frank Boucher",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2404846?v=4",
+      "profile": "http://cloud5mins.com",
+      "contributions": [
+        "code",
+        "talk",
+        "translation"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "frankdemo",
+  "projectOwner": "FBoucher",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
