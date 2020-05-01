@@ -6,10 +6,7 @@
 trigger:
  branches:
     include:
-      - refs/tags/v1.0.0
-    exclude:
-        - refs/tags/v2.0.0
-        - refs/tags/v3.0.0
+      - refs/tags/v3.0.0
 pool:
   vmImage: 'ubuntu-latest'
 
