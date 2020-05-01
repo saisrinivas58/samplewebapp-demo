@@ -9,7 +9,7 @@ trigger:
      - master
  tags:
    include:
-     - v2.0.0
+     - v1.0.0
 
 pool:
   vmImage: 'ubuntu-latest'
