@@ -2,10 +2,10 @@
 - hosts: localhost
  
   vars:
-    resource_group: newansbile-RG
-    location: eastus
-    webapp_name: ansibledemo123webapp
-    webapp_plan: ansibledemo123webappPlan
+    resource_group: __resource_group__
+    location: __location__
+    webapp_name: __webapp_name__
+    webapp_plan: __webapp_plan__
 
   tasks:
     - name: create a resource group
