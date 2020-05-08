@@ -3,7 +3,7 @@
  
   vars:
     resource_group: _resource_group_
-    location: location
+    location: _location_
     webapp_name: _webapp_name_
     webapp_plan: _webapp_plan_
 
