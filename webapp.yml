@@ -1,5 +1,6 @@
 ---
 - hosts: localhost
+  connection: local
  
   vars: 
     resource_group: newansbile-RG
@@ -12,6 +13,7 @@
       azure_rm_resourcegroup:
          name: "{{resource_group}}"
          location: "{{location}}"
+         
     - name: create a app service on windows with dotnot runtime
       azure_rm_webapp:
          resource_group: "{{resource_group}}"
