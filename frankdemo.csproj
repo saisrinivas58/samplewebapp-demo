@@ -2,8 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <version>1.0.0</Version>
-    <PackageID>Sampledemo</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
